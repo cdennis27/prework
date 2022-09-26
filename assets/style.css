@@ -1,0 +1,79 @@
+/*style done in css*/
+{
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(7, 10, 134);
+    color: rgb(185, 185, 185);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid rgb(175, 174, 174);
+    box-shadow: 5px 10px #5f5d5d;
+  }
+
+.image1 {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image2 {
+    display: block;
+    height: 500px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+footer {
+    display: block;
+    height: 120px;
+    margin-top: center; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+/*p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: auto;
+    
+        
+}*/
+
+.footertext {
+    height: 120px;
+    position: relative
+}
+.footertext p {
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
