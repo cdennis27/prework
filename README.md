@@ -23,7 +23,7 @@ This Prework Study Guide is usefull as a guide to build a basic website, below i
 
 "To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![Pushing it!!](assets/mini.jpeg)"
+![Pushing it!!](assets/mini.jpg)"
 
 ### Credits
 
