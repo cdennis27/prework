@@ -4,27 +4,54 @@
     padding: 0;
 }
 
-header,
-footer {
+html
+{
+    background-color: rgb(214, 214, 214);
+}
+header
+{
+    position: sticky;
+    top: 5px;
     width: 100%;
     height: 120px;
     background-color: rgb(7, 10, 134);
     color: rgb(185, 185, 185);
 }
 
-h1,
-h2 {
-    text-align: center;
+footer 
+{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(7, 10, 134);
+    color: rgb(185, 185, 185);
 }
 
-.card {
+
+
+h1 
+{
+    text-align: center;
+    font: italic bold 2em;
+    font-family: cursive;
+
+}
+h2 
+{
+    text-align: center;
+    font: italic bold 1.5em "Fina Sans", serif;
+}
+
+.card 
+{
     width: 80%;
     margin: 40px auto;
+    padding-left: 0%;
     border: 5px solid rgb(161, 161, 161);
     box-shadow: 5px 10px #5f5d5d;
   }
 
-.image1 {
+.image1 
+{
     display: block;
     height: 50px;
     width: 50px;
@@ -32,25 +59,53 @@ h2 {
     margin-right: auto;
 }
 
-.image2 {
-    display: block;
+.image2 
+{
+    display: relative;
     height: 500;
     max-width: 90%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    
+}
+
+.minis
+{
+    margin: 5%;
+}
+
+.image3 
+{
+    display: inline-block;
+    height: auto;
+    max-width: 33%;
+    min-width: 175px;
+    margin: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
+    
 }
 
-ul {
-    padding-left: 40px;
+ul 
+{
+    /*padding-left: 0px;*/
     font-size: 20px;
 }
+li
+{
+    margin-left: 40px;
+}
 
-footer {
+footer 
+{
     display: block;
     height: 120px;
     margin-top: center; 
     margin-left: auto;
     margin-right: auto;
+    font: 12px/14px sans-serif;
     
     
 }
@@ -64,16 +119,19 @@ footer {
         
 }*/
 
-.footertext {
+.footertext 
+{
     height: 120px;
     position: relative
 }
-.footertext p {
+.footertext p 
+{
     font-size: 30px;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+    
 }
 
