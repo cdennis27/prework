@@ -126,8 +126,10 @@ footer
 }
 .footertext p 
 {
-    font-size: 30px;
-    margin: 0;
+    font-size: 2.5vw;/* viewport proportion to keep text symetric and proportional*/
+    font-family:bold 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
